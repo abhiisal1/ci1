@@ -172,7 +172,3 @@ print(f"Humidity Precision: {precision_rh}")
 print(f"Humidity Recall: {recall_rh}")
 print(f"Humidity F1 Score: {f1_rh}")
 
-from joblib import dump
-dump(model_rf, 'envipar.joblib')
-
-dump(model_rf_rh, 'envipar1.joblib')
